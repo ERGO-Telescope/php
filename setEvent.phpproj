@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>setEvent</Name>
+    <ProjectGuid>{723bf4c6-e41b-4a51-89cd-05fbae4c533d}</ProjectGuid>
+    <RootNamespace>setEvent</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="authenticate2.php" />
+    <Compile Include="check_php.php" />
+    <Compile Include="continue.php" />
+    <Compile Include="dbgridtest.php" />
+    <Compile Include="dbgridtest.xml.php" />
+    <Compile Include="getEvents.php" />
+    <Compile Include="getOrganizations.php" />
+    <Compile Include="getPHPInfo.php" />
+    <Compile Include="getPixels.php" />
+    <Compile Include="getStatus.htm" />
+    <Compile Include="getStatus.php" />
+    <Compile Include="index.php" />
+    <Compile Include="LadyBug.PNG" />
+    <Compile Include="login.php" />
+    <Compile Include="LogIn.phpproj" />
+    <Compile Include="LogIn.sln" />
+    <Compile Include="loginOReilly.php" />
+    <Compile Include="Readme.txt" />
+    <Compile Include="setEvent.php" />
+    <Compile Include="setEvent2.php" />
+    <Compile Include="setupusers.php" />
+    <Compile Include="test.py" />
+    <Compile Include="test.txt" />
+    <Compile Include="_vti_cnf\authenticate2.php" />
+    <Compile Include="_vti_cnf\check_php.php" />
+    <Compile Include="_vti_cnf\continue.php" />
+    <Compile Include="_vti_cnf\dbgridtest.php" />
+    <Compile Include="_vti_cnf\dbgridtest.xml.php" />
+    <Compile Include="_vti_cnf\getEvents.php" />
+    <Compile Include="_vti_cnf\getOrganizations.php" />
+    <Compile Include="_vti_cnf\getPHPInfo.php" />
+    <Compile Include="_vti_cnf\getPixels.php" />
+    <Compile Include="_vti_cnf\getStatus.htm" />
+    <Compile Include="_vti_cnf\getStatus.php" />
+    <Compile Include="_vti_cnf\index.php" />
+    <Compile Include="_vti_cnf\LadyBug.PNG" />
+    <Compile Include="_vti_cnf\login.php" />
+    <Compile Include="_vti_cnf\login2.php" />
+    <Compile Include="_vti_cnf\loginOReilly.php" />
+    <Compile Include="_vti_cnf\Readme.txt" />
+    <Compile Include="_vti_cnf\setEvent.php" />
+    <Compile Include="_vti_cnf\setEvent2.php" />
+    <Compile Include="_vti_cnf\setupusers.php" />
+    <Compile Include="_vti_cnf\test.py" />
+    <Compile Include="_vti_cnf\test.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_vti_cnf" />
+  </ItemGroup>
+</Project>
